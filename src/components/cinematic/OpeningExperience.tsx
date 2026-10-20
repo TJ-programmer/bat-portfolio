@@ -30,6 +30,7 @@ import {
 import CaveScreenUI from "@/components/cinematic/CaveScreenUI";
 import SnakeGame from "@/components/cinematic/SnakeGame";
 import MusicToggle from "@/components/cinematic/MusicToggle";
+import MobileScrollButton from "@/components/cinematic/MobileScrollButton";
 /* -------------------------------------------------------------------------- */
 /*  Opening statements                                                        */
 /* -------------------------------------------------------------------------- */
@@ -2137,6 +2138,8 @@ export default function OpeningExperience() {
       <BatLoader onStart={handleStart} onDone={handleDone} />
       
       <MusicToggle start={started} />
+      
+      <MobileScrollButton />
       
       <RooftopScene />
 
